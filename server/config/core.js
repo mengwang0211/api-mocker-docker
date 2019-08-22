@@ -2,7 +2,7 @@
 module.exports = config => ({
   // mongo 配置
   mongoose: {
-    url: 'mongodb://112.13.91.167:30081/api-mock'
+    url: 'mongodb://172.30.0.4:27017/api-mock'
   },
   // 密码加密的key
   md5Key: '123456',
